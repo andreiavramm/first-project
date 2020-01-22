@@ -2,11 +2,9 @@
 /****************************
 General
  ****************************/
-
 body {
 font-family: 'Shadows Into light', cursive;
 }
-
 #wrapper {
     max-width: 940px;
     margin: 0 auto;
@@ -20,11 +18,6 @@ font-family: 'Shadows Into light', cursive;
 img {
     max-width: 100%;
 }
-
-
-
-
-
 /****************************
 Header
  ****************************/
@@ -34,8 +27,7 @@ Header
      padding: 5px 0 0 0;
      width: 100%;
  }
- 
- 
+
  #logo {
     text-align: center;
     margin: 0;
@@ -58,7 +50,6 @@ h2 {
 h3 {
     margin: 0 0 1em 0;
 }
-
 
 /****************************
 navigation
@@ -101,8 +92,6 @@ footer {
     margin: 0 5px;
 }
 
-
-
 /****************************
 Portofolio
  ****************************/
@@ -126,8 +115,6 @@ Portofolio
     font-size: 1.5em;
     color: #bdc3c7;
 }
-
-
 /****************************
 About Page
  ****************************/
@@ -139,13 +126,12 @@ About Page
     }
 
 .profile-photo {
-    transition: transform .2s;
-   
+    transition: transform .2s;   
 }
+
 .profile-photo:hover {
     transform: scale(1.61);
 }
-
 
 /****************************
 Contact Page
@@ -201,11 +187,10 @@ Contact Page
 .instagram:hover {
    transform: scale(1.1);
 }
+
  /****************************
 colors
  ****************************/
-
-
 header {  
     background: turquoise;
     border-color: #59d1ad;
@@ -235,11 +220,3 @@ a {
     color: #2baa80;
 }
 /* first page body */
-
-
-
-
-
-
-
-
