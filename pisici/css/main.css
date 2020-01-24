@@ -2,8 +2,14 @@
 /****************************
 General
  ****************************/
+ html {
+     height: 100%;
+ }
 body {
-font-family: 'Shadows Into light', cursive;
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: 1fr auto;
+    font-family: 'Merriweather', serif;
 }
 #wrapper {
     max-width: 940px;
@@ -37,14 +43,14 @@ Header
 h1 {
     font-family: 'Indie flower', cursive;
     margin: 15px 0;
-    font-size: 3em;
+    font-size: 2.5em;
     font-weight: normal;
     line-height: 1.1em;
 }
 
 h2 {
-    font-size: 1.5em;
-    margin: -5px 0 0;
+    font-size: 2em;
+    margin: 0 0 0;
     font-weight: normal;
 }
 
@@ -79,31 +85,24 @@ nav a {
 /****************************
 footer
  ****************************/
+ .footer {
+    grid-row-start: 2;
+    grid-row-end: 3;
+ }
 footer {
-    font-size: 0.5em;
+    font-size: 0.7em;
     text-align: center;
     clear: both;
-    padding-top: 50px;
     color: black;
-}
+    }
 #backtotop {
     position: fixed;
     display: flex;
-    left: 80%;
-    right: 20%;
-    top: 80%;
-    bottom: 20%;
-    display: initial;
-    background-color: lightgrey;
-    border-radius: 20px;
-    border: 2px double #cccccc;
-    color: #eeeeee;
-    text-align: vertical;
-    font-size: 20px;
-    padding: 2px;   
-    transition: all 0.5s;
-    cursor: pointer;
-     }
+    top: 85%;
+    bottom: 5%;
+    right: 5%;
+    left: 90%;
+    }
 
 .social-icon {
     width: 20px;

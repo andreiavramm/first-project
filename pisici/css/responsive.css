@@ -6,6 +6,7 @@
      width: 50%;
      float: left;
  }
+ 
  #secondary {
      width: 40%;
      float: right;
@@ -52,6 +53,8 @@
         width: 45%;
         }
 
+
+        
     h1 {
         font-size: 2.5em;
     }
@@ -65,4 +68,10 @@
         border-bottom: 5px solid #a9a9a9;
         margin-bottom: 60px;
         }   
+}
+
+@media screen and (max-width: 480px) {
+    #backtotop {
+        display: none;
+    }
 }
