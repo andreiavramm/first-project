@@ -87,15 +87,18 @@ footer {
     color: black;
 }
 #backtotop {
-    width: 40%;
-    margin-left: 30%;
-    margin-right: 30%;
-    display: inline-block;
+    position: fixed;
+    display: flex;
+    left: 80%;
+    right: 20%;
+    top: 80%;
+    bottom: 20%;
+    display: initial;
     background-color: lightgrey;
-    border-radius: 10px;
+    border-radius: 20px;
     border: 2px double #cccccc;
     color: #eeeeee;
-    text-align: center;
+    text-align: vertical;
     font-size: 20px;
     padding: 2px;   
     transition: all 0.5s;
@@ -209,13 +212,13 @@ Contact Page
 colors
  ****************************/
 header {  
-    background: lightgrey;
-    border-color: lightgrey;
+    background: #34c2c7;
+    border-color: #53d5d9;
 }
 
 body {
     background-color: #fff;
-    color: #999;
+    color: #77ced1;
 }
 
 h1, h2 {
@@ -223,7 +226,7 @@ h1, h2 {
 }
 
 nav {
-    background: rgb(180, 179, 179);
+    background: #77ced1;
 }
 
 nav a, nav a:visited  {
